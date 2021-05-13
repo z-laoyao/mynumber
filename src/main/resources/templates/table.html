@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <!--引入css文件-->
+    <link type="text/css" rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap-table.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap-editable.css"/>
+
+    <!--引入js文件-->
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.serializejson.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap-editable.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap-table-editable.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap-table-zh-CN.min.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    <link href="/assets/images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="/assets/libs/layui/css/layui.css"/>
+    <link rel="stylesheet" href="/assets/module/admin.css?v=318"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/assets/libs/layui/layui.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js?v=318"></script>
+    <script type="text/javascript" src="/js/echarts.js"></script>
+</head>
+<body>
+    <!--echars使用步骤2：创建一个div-->
+    <div id="div_echars" style="width: 80vw;height:80vh;"></div>
+    <button onclick="window.location.href='/dic/index.html'">返回数据页面</button>
+    <!--echars使用步骤3：通过js代码画图：把数据以指定类型显示出来-->
+    <script type="text/javascript">
+        function ini() {
+            $.ajax({
+                url: "/dic/list",
+                type: "post",
+                dataType: "json",
+                success: function (resp) {
+                    data = resp
+                    alarm()  //警报弹窗
+                    init(resp)
+                }
+            })
+        }
+
+        ini();
+        setInterval(() => {
+            ini();
+        }, 5000)
+
+        function init(data) {
+            let maxHigh = new Array();
+            let high_1 = new Array();
+            let high_2 = new Array();
+            let high_3 = new Array();
+            let high_4 = new Array();
+            let nub = new Array();
+            let time = new Array();
+            for (let d of data.data) {
+                maxHigh.push(d.maxHigh);
+                high_1.push(d.high_1);
+                high_2.push(d.high_2);
+                high_3.push(d.high_3);
+                high_4.push(d.high_4);
+                nub.push(d.nub);
+                time.push(d.time);
+            }
+
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('div_echars'));
+            // 指定图表的配置项和数据
+            option = {
+                //指定每项的颜色
+                color: ["#ff0000", "#00ff00", "#00ffff", "#ffff00", "#ff00ff", "#888888"],
+                title: {//指定图标题
+                    text: '折线图堆叠'
+                },
+                tooltip: {//显示数据的类型：item 鼠标进入目标点显示数据   trigger鼠标进入目标区域显示数据
+                    trigger: 'axis'
+                },
+                legend: {//每项数据的标题
+                    data: ['maxHigh', 'high_1', 'high_2', 'high_3', 'high_4', 'nub']
+                },
+
+                toolbox: {
+                    show: true,
+                    feature: {
+                        dataZoom: {
+                            yAxisIndex: 'none'
+                        },
+                        dataView: {readOnly: false},
+                        magicType: {type: ['line', 'bar']},
+                        restore: {},
+                        saveAsImage: {}
+                    }
+                },
+                xAxis: {//x轴数据
+                    type: 'category',
+                    boundaryGap: false,
+                    data: time
+                },
+                yAxis: {
+                    name: 'Income'
+                },
+                series: [
+                    {
+                        name: 'maxHigh',
+                        type: 'line',//显示方式
+                        stack: '总量',
+                        data: maxHigh,
+                        showSymbol: false,
+                        markPoint: {
+                            data: [
+                                {type: 'max', name: '最大值'},
+                                {type: 'min', name: '最小值'}
+                            ]
+                        },
+                        markLine: {
+                            data: [
+                                {type: 'average', name: '平均值'}
+                            ]
+                        }
+                    }
+                ]
+            };
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        }
+    </script>
+</body>
+</html>

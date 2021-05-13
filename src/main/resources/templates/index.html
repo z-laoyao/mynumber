@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>数据展示</title>
+    <link href="/assets/images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="/assets/libs/layui/css/layui.css"/>
+    <link rel="stylesheet" href="/assets/module/admin.css?v=318"/>
+    <link rel="stylesheet" href="/assets/css/theme-all.css?v=318"/>
+    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="/js/index.js"></script>
+    <![endif]-->
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <!-- 头部 -->
+        <div class="layui-header">
+            <div class="layui-logo">
+                <img src="/assets/images/logo.png"/>
+                <cite>&nbsp;数据展示</cite>
+                <ul class="dropdown-menu" id="docDemoMenul">
+                    <li lay-options="{id: 100}"></li>
+                </ul>
+            </div>
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item" lay-unselect>
+                    <a ew-event="flexible" title="侧边伸缩"><i class="layui-icon layui-icon-shrink-right"></i></a>
+                </li>
+                <li class="layui-nav-item" lay-unselect>
+                    <a ew-event="refresh" title="刷新"><i class="layui-icon layui-icon-refresh-3"></i></a>
+                </li>
+                <!-- 小屏幕下变为下拉形式 -->
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+
+                <li class="layui-nav-item layui-hide-xs" lay-unselect>
+                    <a ew-event="fullScreen" title="全屏"><i class="layui-icon layui-icon-screen-full"></i></a>
+                </li>
+
+                <li class="layui-nav-item" lay-unselect>
+                    <a>
+                        <cite th:if="${session.get('user') != null }" th:text="${session.get('user').name}">
+                        </cite>
+                        <cite th:if="${session.get('admin') != null }" th:text="${session.get('admin').name}">
+                        </cite>
+                        <cite th:if="${session.get('user') == null && session.get('admin') == null}"
+                              onclick="window.location.href='/login'">未登录</cite>
+                    </a>
+                    <dl class="layui-nav-child" th:if="${session.get('user') != null || session.get('admin') != null} ">
+                        <dd lay-unselect><a ew-event="logout" data-url="/logout">退出</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 侧边栏 -->
+        <div class="layui-side">
+            <div class="layui-side-scroll">
+                <ul class="layui-nav layui-nav-tree" lay-filter="admin-side-nav" lay-shrink="_all"
+                    style="margin: 15px 0;">
+                    <li class="layui-nav-item" th:if="${session.get('user') != null || session.get('admin') != null}">
+                        <a><i class="glyphicon glyphicon-th-list"></i>&emsp;<cite>数据管理</cite></a>
+                        <dl class="layui-nav-child">
+                            <dd>
+                                <a onclick="goHtml('/dic/index')"><i class="glyphicon glyphicon-th-list"></i>数据展示
+                                </a></dd>
+                            <dd><a onclick="goHtml('/table')"><i class="glyphicon glyphicon-th-list"></i>数据图表</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item" th:if="${session.get('admin')!= null}">
+                        <a><i class="glyphicon glyphicon-user"></i>&emsp;<cite>用户管理</cite></a>
+                        <dl class="layui-nav-child">
+                            <dd><a onclick="goHtml('/user')"><i class="glyphicon glyphicon-user"></i>用户列表</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 主体部分 -->
+        <div class="layui-body"></div>
+
+    </div>
+
+    <!-- 加载动画 -->
+    <div class="page-loading">
+        <div class="ball-loader">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- js部分 -->
+    <script type="text/javascript" src="/assets/libs/layui/layui.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js?v=318"></script>
+    <script>
+        function goHtml(url) {
+            layui.use(['index'], function () {
+                var $ = layui.jquery;
+                var index = layui.index;
+                // 默认加载主页
+                index.loadHome({
+                    menuPath: url,
+                    menuName: '<i class="layui-icon layui-icon-home"></i>'
+                });
+            })
+        }
+        let user = "[[${session.user}]]"
+        let admin = "[[${session.admin}]]"
+        if ((user.length == 0) && (admin.length == 0)){
+            window.location.href = "/login";
+        }
+        goHtml('/table')
+    </script>
+</body>
+</html>
