@@ -1,17 +1,7 @@
 package ink.num.util;
-
-
 import gnu.io.*;
 import ink.num.dao.NumberDao;
 import ink.num.model.Number;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.BeanFactoryUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Component;
-import org.springframework.web.context.support.WebApplicationContextUtils;
-import sun.misc.BASE64Encoder;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -22,7 +12,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-
 
 public class ContinueckRead extends Thread implements SerialPortEventListener { // SerialPortEventListener
     // 监听器,我的理解是独立开辟一个线程监听串口数据
@@ -116,7 +105,7 @@ public class ContinueckRead extends Thread implements SerialPortEventListener { 
                                     .build();
                             dao = BeanUtil.getBean(NumberDao.class);
                             dao.addData(build);
-                            readBuffer = new byte[20];// 重新构造缓冲对象，否则有可能会影响接下来接收的数据
+                            readBuffer = new byte[50];// 重新构造缓冲对象，否则有可能会影响接下来接收的数据
                         } else {
                             msgQueue.add("额------没有读到数据");
                         }

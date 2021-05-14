@@ -6,40 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="210ecafe-b0d3-413e-a937-712c6971c19b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/number.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/111.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/number.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/number.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/number.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-editable.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-editable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-table.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-editable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-editable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table-editable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap-table.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.common.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.simple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/echarts.simple.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/echarts.simple.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/extension/bmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/extension/bmap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/extension/bmap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/extension/bmap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/extension/dataTool.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/extension/dataTool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/extension/dataTool.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/extension/dataTool.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.serializejson.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.serializejson.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ink/num/util/ContinueckRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ink/num/util/ContinueckRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +180,8 @@
       <workItem from="1620740556351" duration="348000" />
       <workItem from="1620779325220" duration="25995000" />
       <workItem from="1620896939622" duration="228000" />
+      <workItem from="1620898255842" duration="389000" />
+      <workItem from="1620977804241" duration="7083000" />
     </task>
     <servers />
   </component>
@@ -222,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1620294222905" />
-    <state x="231" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620549800623">
+    <state x="231" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620898621867">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="231" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1620549800623" />
+    <state x="231" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1620898621867" />
     <state x="612" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1620274355660">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -241,75 +212,75 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="514" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1620785538921" />
-    <state x="312" y="19" key="CommitChangelistDialog2" timestamp="1620897159466">
+    <state x="312" y="19" key="CommitChangelistDialog2" timestamp="1620984998129">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="312" y="19" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1620897159466" />
+    <state x="312" y="19" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1620984998129" />
     <state x="592" y="223" key="FileChooserDialogImpl" timestamp="1620783697527">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="592" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1620783697527" />
     <state x="740" y="326" key="FileChooserDialogImpl/0.64.1920.1016@0.64.1920.1016" timestamp="1616650094918" />
-    <state width="1492" height="340" key="GridCell.Tab.0.bottom" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.0.bottom" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="460" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946220" />
     <state width="1875" height="472" key="GridCell.Tab.0.bottom/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.0.bottom/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396672" />
     <state width="1875" height="356" key="GridCell.Tab.0.bottom/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.0.center" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.0.center" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="460" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946220" />
     <state width="1875" height="472" key="GridCell.Tab.0.center/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.0.center/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396671" />
     <state width="1875" height="356" key="GridCell.Tab.0.center/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.0.left" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.0.left" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="460" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946220" />
     <state width="1875" height="472" key="GridCell.Tab.0.left/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.0.left/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396671" />
     <state width="1875" height="356" key="GridCell.Tab.0.left/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.0.right" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.0.right" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="460" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946220" />
     <state width="1875" height="472" key="GridCell.Tab.0.right/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.0.right/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396671" />
     <state width="1875" height="356" key="GridCell.Tab.0.right/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.1.bottom" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.1.bottom" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="293" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946200" />
     <state width="1875" height="472" key="GridCell.Tab.1.bottom/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.1.bottom/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396672" />
     <state width="1875" height="356" key="GridCell.Tab.1.bottom/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026683" />
-    <state width="1492" height="340" key="GridCell.Tab.1.center" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.1.center" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="293" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946200" />
     <state width="1875" height="472" key="GridCell.Tab.1.center/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.1.center/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396672" />
     <state width="1875" height="356" key="GridCell.Tab.1.center/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.1.left" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.1.left" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="293" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946200" />
     <state width="1875" height="472" key="GridCell.Tab.1.left/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.1.left/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396672" />
     <state width="1875" height="356" key="GridCell.Tab.1.left/0.64.1920.946/-1366.104.1366.728@0.64.1920.946" timestamp="1620269026682" />
-    <state width="1492" height="340" key="GridCell.Tab.1.right" timestamp="1620897170181">
+    <state width="1492" height="187" key="GridCell.Tab.1.right" timestamp="1620994534089">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="340" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620897170181" />
+    <state width="1492" height="187" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620994534089" />
     <state width="1875" height="293" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1616588946200" />
     <state width="1875" height="472" key="GridCell.Tab.1.right/0.64.1920.1016/-1366.104.1366.728@0.64.1920.1016" timestamp="1618535998207" />
     <state width="1875" height="293" key="GridCell.Tab.1.right/0.64.1920.1016@0.64.1920.1016" timestamp="1616666396672" />
@@ -354,21 +325,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ink/num/util/ContinueckRead.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ink/num/util/ContinueckRead.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ink/num/dao/UserDao.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/resources/static/js/index.js</url>
           <line>15</line>
